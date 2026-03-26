@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+.dashboard {
+  padding: 20px;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.search button {
+  padding: 10px;
+  border-radius: 8px;
+  background: #6366f1;
+  color: white;
+  border: none;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.forecast {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.forecast-card {
+  background: #334155;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 100px;
+}
+
+.history button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.clear {
+  background: linear-gradient(135deg, #56ccf2, #2f80ed);
+}
+
+.cloudy {
+  background: linear-gradient(135deg, #757f9a, #d7dde8);
+}
+
+.rainy {
+  background: linear-gradient(135deg, #314755, #26a0da);
+}
+
+.haze {
+  background: linear-gradient(135deg, #bdc3c7, #2c3e50);
+}
